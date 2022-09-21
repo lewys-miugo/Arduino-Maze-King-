@@ -3,4 +3,16 @@ Name: Lewis M***o W*****u.
 Course: Electronics & Computer Engineering
 Institution: Jomo Kenyatta University of Agriculture and Technology*/
 
-//
+//Declaration of variables.
+#defien vel_motor_esq 10 // Control the speed of the left motor;
+#define vel_motor_dir 11 // Control the speed of the motor direction;
+#define e1 8  // controls direction of rotation of the left motor;
+#define e2 9  // controls direction of rotation of the left motor;
+#define d1 12  //controls direction of rotation of the direct motor;
+#define d2 7  // controls direction of rotation of the direct motor;
+
+
+
+int trigger_front = A4; // controls the impulse sent from the front sensor.
+int echo_front = A5;
+
